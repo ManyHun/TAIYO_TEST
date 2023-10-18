@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 메인메뉴를 정의합니다　-->
+    <item
+        android:title="로그인 정보">
+        <menu android:checkableBehavior="single">
+    <item
+        android:id="@+id/user_id"
+        android:title="아이디"
+        />
+    <item
+        android:id="@+id/user_name"
+        android:title="사용자" />
+        </menu>
+    </item>
+
+    <item
+    android:title="메뉴 정보">
+    <menu android:checkableBehavior="single">
+        <item
+        android:id="@+id/MOBF0009"
+        android:title="MOBF0009"
+        />
+
+        <item
+            android:id="@+id/MOBF0010"
+            android:title="MOBF0010"
+            />
+
+        <item
+            android:id="@+id/MOBF0011"
+            android:title="MOBF0011"
+            />
+
+
+    </menu>
+    </item>
+
+     <!--item 내에 menu를 중첩해 넣어 서브 메뉴를 정의합니다　-->
+    <item
+        android:title="앱 정보">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/user_verison"
+                android:title="버전정보"
+                />
+            <item
+                android:id="@+id/log_out"
+                android:title="로그아웃" />
+            <item
+                android:id="@+id/app_out"
+                android:title="앱 종료" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,277 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:dandroid="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 메인 화면의 레이아웃을 자유롭게 구현합니다　-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            app:theme="@style/AppTheme_NO"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DRK_OS"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="아이디"
+                android:layout_gravity="right"
+                android:id="@+id/tv_main_id"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+        </androidx.appcompat.widget.Toolbar>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <!--android:background="@drawable/menu_img"-->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="1dp"
+            android:background="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <Button
+                android:id="@+id/btn_wait"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="실적등록"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+     <!--       <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_ware"
+                android:text="MOBF0002"
+                android:background="@drawable/buttonshape"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_Oem"
+                android:text="MOBF0003"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:background="@drawable/buttonshape"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                />-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+            <Button
+                android:id="@+id/btn_Merger"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="MOBF0004"
+                android:textSize="15sp"
+                android:background="@drawable/buttonshape"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                />
+<!--
+
+            <Button
+
+                android:id="@+id/btn_inventory"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="MOBF0005"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+            <Button
+
+                android:id="@+id/btn_Release"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="MOBF0006"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            >
+            <Button
+                android:id="@+id/btn_mobf0007"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="재고실사"
+                android:textSize="15sp"
+                android:background="@drawable/buttonshape"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                />
+<!--
+            <Button
+                android:id="@+id/btn_Search"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="MOBF0008"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+
+                />
+            <Button
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:background="@drawable/btn_blue_color_nor"
+                android:layout_margin="5sp"
+                android:visibility="invisible"
+                />-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_mat"
+                android:text="구매/자재"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:background="@drawable/btn_blue_color_nor"
+                android:layout_margin="5sp"
+                android:visibility="gone"
+                />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_sal"
+                android:text="영업"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:background="@drawable/btn_blue_color_nor"
+                android:layout_margin="5sp"
+                android:visibility="gone"
+                />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_prd"
+                android:text="생산"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:background="@drawable/btn_blue_color_nor"
+                android:layout_margin="5sp"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gv_main_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3" >
+
+        </GridView>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Copyright Infosolution All Rights Reserved."
+            android:textColor="#333333"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+    <!-- 내비게이션 드로어의 토대가 되는 NavigationView를 정의합니다　-->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/fragment_navi_header"
+        app:menu="@menu/menu_navi"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

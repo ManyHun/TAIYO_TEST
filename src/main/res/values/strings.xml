@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">DRK OS</string>
+
+    <!-- jsp -->
+    <!-- 현우서버 -->
+    <!--210.207.178.167:9090 -->
+    <!-- 인포서버 -->
+    <!--<string name="endpoint">http://1.241.249.174:8091/</string>-->
+    <string name="endpoint">http://106.251.238.99:8091/</string>
+
+    <!-- 테스트서버 -->
+    <!--<string name="endpoint">http://192.168.4.6:8080/</string>-->
+
+    <string name="endpoint_text">H System</string>
+
+    <!-- TEXT -->
+    <string name="image_desc">이미지</string>
+
+    <!-- LoginFragment (언어 공통)-->
+    <string name="txt_site_ip">Site Ip</string>
+    <string name="txt_your_id">Your id</string>
+    <string name="txt_your_password">Your password</string>
+    <string name="txt_your_endpoint">Server endpoint</string>
+    <string name="txt_your_name">Your name</string>
+    <string name="txt_your_id_done">Your id done</string>
+    <string name="txt_your_password_done">Your password done</string>
+    <string name="txt_login_title">Login</string>
+    <string name="txt_login">LOGIN</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <!--   출고 대기 처리-->
+    <string name="txt_w1_pallet_barcode_scan">Pallet Barcode Scan</string>
+    <string name="txt_w1_pallet_no">Pallet No</string>
+    <string name="txt_w1_qty">Qty</string>
+    <string name="txt_w1_warehouse">Warehouse</string>
+
+    <string name="txt_w1_location_code">Location Code</string>
+    <string name="txt_w1_location_desctiption">Location_Description</string>
+    <string name="txt_w1_box_barcode_scan">Box Barcode Scan</string>
+    <string name="txt_w1_warehousedesc">Warehouse Desc</string>
+
+    <!--   출고 처리-->
+    <string name="txt_w2_do_scan">D/O Scan</string>
+    <string name="txt_w2_do_no">D/0 No</string>
+    <string name="txt_w2_do_date">D/O Date</string>
+    <string name="txt_w2_customer">납품처</string>
+    <string name="txt_w2_item">제품명</string>
+    <string name="txt_w2_item_se_qty">출고지시 수량</string>
+    <string name="txt_w2_item_ware_qty">창고 수량</string>
+    <string name="txt_w2_item_out_qty">출고 수량</string>
+    <string name="txt_w2_pallet_barcoad_scan">Pallet Barcode Scan</string>
+
+
+
+    <!--입고 처리 -->
+    <string name="txt_w3_datepick">Date Time</string>
+    <string name="txt_w3_ware_house_code">Warehouse Code</string>
+    <string name="txt_w3_ware_house">Warehouse</string>
+    <string name="txt_w3_location_code">Location Code</string>
+    <string name="txt_w3_location_description">Location Description</string>
+    <string name="txt_w3_pallet_barcode_scan">Pallet Barcode Scan</string>
+    <string name="txt_w3_pallet_no">Pallet No</string>
+    <string name="txt_w3_qty">Qty</string>
+
+    <!--입고 처리 oem -->
+    <string name="txt_w4_datepick">Date Time</string>
+    <string name="txt_w4_ware_house_code">Warehouse Code</string>
+    <string name="txt_w4_ware_house">Warehouse</string>
+    <string name="txt_w4_location_code">Location Code</string>
+    <string name="txt_w4_location_description">Location Description</string>
+    <string name="txt_w4_item_barcode_scan">Item Barcode Scan</string>
+    <string name="txt_w4_item_code">Item Code</string>
+    <string name="txt_w4_item_desc">Item Desc</string>
+    <string name="txt_w4_item_type">Item Type </string>
+    <string name="txt_w4_item_warehousing_qty">Item Warehousing Qty</string>
+    <string name="txt_w4_item_qty_box">Item Qty Box</string>
+    <string name="txt_w4_item_box">Item Box</string>
+    <string name="txt_w4_item_box_pallet">Item Box Pallet</string>
+    <string name="txt_w4_item_pallet">Item Pallet</string>
+
+
+    <!--반입처리 -->
+    <string name="txt_w5_pallet_barcode_scan">Pallet Barcode Scan</string>
+    <string name="txt_w5_datepick">Warehouse</string>
+    <string name="txt_w5_pallet_no">Pallet No</string>
+    <string name="txt_w5_qty">Qty</string>
+    <string name="txt_w5_warehouse">Warehouse</string>
+    <string name="txt_w5_location_code">Location Code</string>
+    <string name="txt_w5_location_descripition">Location Description</string>
+    <string name="txt_w5_barcode_scan"> Barcode Scan</string>
+
+
+    <!--   재고실사-->
+
+    <string name="txt_w6_pallet_barcode_scan">Pallet Barcode Scan</string>
+    <string name="txt_w6_pallet_no">Pallet No</string>
+    <string name="txt_w6_qty">Qty</string>
+    <string name="txt_w6_warehouse">Warehouse</string>
+    <string name="txt_w6_datepick">Date Time</string>
+    <string name="txt_w6_location_code">Location Code</string>
+    <string name="txt_w6_location_desctiption">Location_Description</string>
+    <string name="txt_w6_box_barcode_scan">Box Barcode Scan</string>
+    <string name="txt_w6_warehous_desc">Warehouse Desc</string>
+    <string name="txt_w6_stock_qty">Stock Qty</string>
+    <string name="txt_w6_real_qty">Real Qty</string>
+
+    <!--병합처리-->
+
+    <string name="txt_w7_pallet_barcode_scan">Pallet Barcode Scan</string>
+    <string name="txt_w7_datepick">Date Time</string>
+    <string name="txt_w7_pallet_no">Pallet No</string>
+    <string name="txt_w7_qty">Qty</string>
+    <string name="txt_w7_warehouse">Warehouse</string>
+    <string name="txt_w7_location_code">Location Code</string>
+    <string name="txt_w7_location_desctiption">Location_Description</string>
+    <string name="txt_w7_outbox_barcode_scan">Box Barcode Scan</string>
+    <string name="txt_w7_outbox_qty">Qty</string>
+    <string name="txt_w7_in_pallet_barcode_scan">Pallet Barcode Scan</string>
+    <string name="txt_w7_in_pallet_no">Pallet No</string>
+    <string name="txt_w7_in_qty">Qty</string>
+    <string name="txt_w7_in_warehouse">Warehouse</string>
+    <string name="txt_w7_in_location_code">Location Code</string>
+    <string name="txt_w7_in_location_desctiption">Location_Description</string>
+
+    <!--투입자재 연결-->
+
+    <string name="txt_w8_lot_barcode_scan">Lot Barcode Scan</string>
+    <string name="txt_w8_wo">W/O</string>
+    <string name="txt_w8_lot">Lot</string>
+    <string name="txt_w8_item_code">Item Code</string>
+    <string name="txt_w8_item_desc">Item Desc</string>
+    <string name="txt_w8_mat_item_code">Mat Item Code</string>
+    <string name="txt_w8_mat_item_desc">Mat Item Desc</string>
+    <string name="txt_w8_box_barcode_scan">Box Barcode Scan</string>
+    <string name="txt_w8_qty">Qty</string>
+
+    <!--조회화면-->
+
+    <string name="txt_w9_vendor">납품처</string>
+    <string name="txt_w9_Date">Date</string>
+    <string name="txt_w9_allChk">Chk</string>
+
+    <!-- 새 입고 처리 oem -->
+
+    <string name="txt_w10_barcode_scan">Barcode Scan</string>
+    <string name="txt_w10_warehouse_code">WareHouse Code</string>
+    <string name="txt_w10_warehouse_desc">WareHouse Desc</string>
+    <string name="txt_w10_location_code">Location Code</string>
+    <string name="txt_w10_location_desc">Location Desc</string>
+    <string name="txt_w10_totalqty">Total Qty</string>
+
+
+     <!--출고처리-->
+    <string name="txt_n1_reqno">요청번호</string>
+    <string name="txt_n1_boxno">BOX No</string>
+    <string name="txt_n1_warehouse">warehouse</string>
+
+    <!--자재이송-->
+    <string name="txt_n2_warehosue_desc">Warehouse 명</string>
+    <string name="txt_n2_warehosue_code">Warehouse Code</string>
+    <string name="txt_n2_location_desc">Location 명</string>
+    <string name="txt_n2_location_Code">Location Code </string>
+    <string name="txt_n2_total_qty">Total Qty</string>
+    <string name="txt_n2_boxno">BOX No</string>
+
+   <!--재고실사-->
+    <string name="txt_n3_warehosue_desc">Warehouse 명</string>
+    <string name="txt_n3_warehosue_code">Warehouse Code</string>
+    <string name="txt_n3_location_desc">Location 명</string>
+    <string name="txt_n3_location_Code">Location Code </string>
+    <string name="txt_n3_item_code">Item Code</string>
+    <string name="txt_n3_item_desc">Item 명</string>
+    <string name="txt_n3_boxno">BOX No</string>
+    <string name="txt_n3_category_code">Category Code</string>
+    <string name="txt_n3_category_desc">Category 명</string>
+    <string name="txt_n3_section_code">Section Code</string>
+    <string name="txt_n3_section_desc">Section 명</string>
+
+    <!--생산사용등록-->
+    <string name="txt_p1_op_group_no">투입 공정</string>
+    <string name="txt_p1_input_date">투입일</string>
+    <string name="txt_p1_input_no">의뢰 번호</string>
+    <string name="txt_p1_item_desc">제품명</string>
+    <string name="txt_p1_item_code">제품 코드</string>
+    <string name="txt_p1_release_qty">의뢰수</string>
+    <string name="txt_p1_tem_qty">실적수</string>
+    <string name="txt_p1_mat_item_code">자재 코드</string>
+    <string name="txt_p1_mat_receipt_date">자재 지정일</string>
+    <string name="txt_p1_mat_barcode_scan">자재 LOT BARCODE SCAN</string>
+    <string name="txt_p1_mat_lot_no">자재 LOT 번호</string>
+    <string name="txt_p1_mat_lot_desc">자재명</string>
+    <string name="txt_p1_mat_stored_date">입고일</string>
+    <string name="txt_p1_onhand_qty">재고</string>
+    <string name="txt_p1_issue_qty">사용량</string>
+    <string name="txt_p1_mat_tem_qty">실적</string>
+    <string name="txt_p1_mat_tem_los_qty">로스</string>
+
+ <!--실사등록-->
+
+    <string name="txt_p3_month">실사년월</string>
+    <string name="txt_p3_location_code">Location Code</string>
+    <string name="txt_p3_location_desc">Location 명</string>
+    <string name="txt_p3_box_scan">BOX SCAN</string>
+
+
+</resources>

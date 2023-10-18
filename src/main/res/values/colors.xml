@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본 -->
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <!--<color name="primary_color">#175CE6</color>-->
+    <!--<color name="primary_color_light">#8CE6FF</color>-->
+    <!--<color name="primary_color_dark">#004c8c</color>-->
+    <!--<color name="primary_text_color">#DD000000</color>-->
+
+    <!--<color name="default_background">#EFF0F1</color>-->
+    <color name="colorPrimary">@color/primary_color</color>
+    <color name="colorIvory">@color/ivory</color>
+    <color name="colorPrimaryDark">@color/primary_color_dark</color>
+    <color name="colorPrimaryBlack">@color/primary_background_black</color>
+    <color name="colorPrimaryLight">@color/primary_color_light</color>
+    <color name="colorAccent">@color/accent_color</color>
+
+    <color name="primary_color">#175CE6</color>
+    <color name="primary_color_light">#8CE6FF</color>
+    <color name="primary_color_dark">#004c8c</color>
+    <color name="primary_text_color">#DD000000</color>
+    <color name="primary_background_black">#000000</color>
+    <color name="ptk_back_color">#EFFBF8</color>
+
+    <!-- COLOR -->
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FFD9E4</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FF8000</color>
+    <color name="login_orange">#ED9E3E</color>
+    <color name="ivory"> #FDF4E3</color>
+    <color name="light_purple"> #D7B5EB</color>
+    <color name="light_gray"> #e8e7e7</color>
+    <color name="normal_gray"> #d4d2d2</color>
+    <color name="light_pink"> #F8E0F1</color>
+    <color name="light_blue"> #72D4F8</color>
+    <color name="ivory_blue"> #DFEEF4</color>
+    <color name="mint"> #28f0ad</color>
+    <color name="light_green">#BCF5A9</color>
+
+    <!-- 로그인 에디트 관련 -->
+    <color name="login_edit_bg">#ffffff</color>
+    <color name="login_edit_stroke">#dedede</color>
+    <color name="login_edit_stroke_focused">@color/primary_color_light</color>
+    <color name="login_edit_hint">#9e9d9d</color>
+    <color name="login_edit_text">#000000</color>
+
+    <color name="tab_indicator_color">#C5CAE9</color>
+    <color name="secondary_text_white_color">@color/white</color>
+    <color name="secondary_text_white_color2">@color/black</color>
+
+    <color name="accent_color">#115677</color>
+
+    <color name="ListSelect">#120000FF</color>
+
+    <!-- Opacity -->
+    <color name="opacity_100">#FFFFFFFF</color>
+    <color name="opacity_90">#E6FFFFFF</color>
+    <color name="opacity_80">#CCFFFFFF</color>
+    <color name="opacity_70">#B3FFFFFF</color>
+    <color name="opacity_60">#99FFFFFF</color>
+    <color name="opacity_50">#80FFFFFF</color>
+    <color name="opacity_40">#66FFFFFF</color>
+    <color name="opacity_35">#59FFFFFF</color>
+    <color name="opacity_30">#4DFFFFFF</color>
+    <color name="opacity_20">#33FFFFFF</color>
+    <color name="opacity_10">#1AFFFFFF</color>
+
+    <!-- Black -->
+    <color name="black_100">#FF000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_85">#D8000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_35">#59000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_05">#05000000</color>
+
+
+</resources>
